@@ -2,11 +2,11 @@
   "name": "new-purple",
   "version": "1.0.0",
   "author": "Bryan Paronto <bparonto@gmail.com> (http://bryanparonto.com/)",
-  "dependencies": {
-    "react": "^0.13.3"
-  },
   "babel": {
     "stage": 1
+  },
+  "dependencies": {
+    "react": "^0.13.3"
   },
   "devDependencies": {
     "autoprefixer-core": "^5.1.11",
@@ -29,7 +29,7 @@
     "stylus-loader": "^1.1.1",
     "url-loader": "^0.5.5",
     "webpack": "^1.9.6",
-    "webpack-dev-server": "^1.8.2",
+    "webpack-dev-server": "^1.8.2"
   },
   "license": "MIT",
   "main": "index.js",
