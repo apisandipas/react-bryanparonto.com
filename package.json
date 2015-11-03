@@ -6,7 +6,10 @@
     "stage": 1
   },
   "dependencies": {
-    "react": "^0.13.3"
+    "bootstrap-sass": "^3.3.5",
+    "jquery": "^2.1.4",
+    "react": "^0.13.3",
+    "react-router": "^0.13.3"
   },
   "devDependencies": {
     "autoprefixer-core": "^5.1.11",
@@ -28,6 +31,7 @@
     "style-loader": "^0.12.2",
     "stylus-loader": "^1.1.1",
     "url-loader": "^0.5.5",
+    "yeticss": "^6.0.6",
     "webpack": "^1.9.6",
     "webpack-dev-server": "^1.8.2"
   },

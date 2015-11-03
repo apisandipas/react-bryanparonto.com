@@ -1,0 +1,49 @@
+.Button {
+    @extend .btn;
+    
+    text-decoration: none;
+
+    &--primary {
+        @extend .btn-primary;
+    }
+
+    &--light {
+        border-radius: 0;
+        color: #333;
+        background-color: rgb(255,255,255);
+    }
+
+    &--light:hover,
+    &--light:focus,
+    &--light:active {
+        color: #333;
+        text-decoration: none;
+        background-color: rgba(255,255,255,0.8);
+    }
+
+    &--dark {  
+        border-radius: 0;
+        color: #fff;
+        text-decoration: none;
+        background-color: rgba($purp, 0.4);
+    }
+
+    &--dark:hover,
+    &--dark:focus,
+    &--dark:active {
+        color: #fff;
+        background-color: rgba($purp,0.7);
+    }
+    
+
+    // width: 100%;
+    @include respond-to($desktop){
+        // width: 45%;
+        & + & {
+            margin-left: 1em;
+        }
+    }
+   
+
+ 
+}

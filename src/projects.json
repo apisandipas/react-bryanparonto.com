@@ -1,0 +1,62 @@
+[
+    {
+        "url": "http://www.zap2it.com/tv-listings-new/",
+        "displayUrl": "www.zap2it.com",
+        "name":"Zap2It",
+        "description": "The new Zap2It TV Listings grid is built on React with a custom flux implementaiton utilizing Backbone."
+    },
+    {
+        "url": "http://www.shipbob.com",
+        "displayUrl": "www.shipbob.com",
+        "name":"ShipBob",
+        "description": "A Y-Combinator startup that offers on-demain ship-n-pack as a service. I was charged with building their responsive marketing site to help bring in new customers."
+    },
+    {
+        "url": "http://www.ajcpt.com",
+        "displayUrl": "www.ajcpt.com",
+        "name":"AJ Capital Partners",
+        "description": "Client portal developed on Ruby on Rails, with accompanying single-page brochure site. "
+    },
+    {
+        "url": "http://spendout.com",
+        "displayUrl": "spendout.com",
+        "name": "SpendOut",
+        "description": "I lead front end development for this expense tracking SaaS application built on AngularJS, Browserify and Gulp."
+    },
+    {
+        "url": "http://chicagoima.org",
+        "displayUrl": "chicagoima.org",
+        "name": "Chicago Interactive Marketing Association",
+        "description": "Migration from Drupal to WordPress with integrations to Eventbrite, Facebook & Braintree."
+    },
+    {
+        "url": "http://space.doejo.com",
+        "displayUrl": "space.doejo.com",
+        "name": "Space By Doejo",
+        "description": "A brochure site and blog for a Doejo-owned co-working space in River North, Chicago."
+    },
+    {
+        "url": "http://soulsight.com",
+        "displayUrl": "soulsight.com",
+        "name": "Soulsight",
+        "description": "A portfolio site and blog for a branding and design firm with high profile clients."
+    },
+    {
+        "url": "http://drinkndev.com",
+        "displayUrl": "drinkndev.com",
+        "name": "Drink N Dev Hackathon",
+        "description": "A one-page site and registration page built for Doejo's annual hackathon event, which I also started and ran for two years."
+    },
+    {
+        "url": "http://chicagoathleticclubs.com/",
+        "displayUrl": "chicagoathleticclubs.com",
+        "name": "Chicago Athletic Clubs",
+        "description": "I rebuilt and relaunched a responsive redesign to better meet the needs of the CAC's on-the-go members."
+    },
+        {
+        "url": "http://rockitships.com/",
+        "displayUrl": "rockitships.com",
+        "name": "Rock-it Ships",
+        "description": "Rock-it Ships is a musician-tranport business offering a green altnative to bands on the road. I did their branding and WordPress site."
+    }
+]

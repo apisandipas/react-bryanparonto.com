@@ -1,0 +1,18 @@
+.Project {
+    @extend .col-md-3;
+    min-height: 100px;
+    padding: 1em 2em 1em;
+    transition: background 500ms ease-out;
+    &:hover {
+        text-decoration: none;
+        background: rgba(238, 238, 238, 0.2);
+    }
+
+    // a {
+    //     display: block;
+    // }
+
+    @include respond-to($desktop){      
+        height: 230px;  
+    }
+}

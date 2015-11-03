@@ -1,0 +1,15 @@
+body {
+    background: $purp;
+    color: #fff;
+    margin: 0;
+    font-family: "Roboto Slab", sans-serif;
+}
+
+a, a small {
+    color: #fff;
+    &:active, 
+    &:hover {
+        color: #fff;
+    }
+}
+

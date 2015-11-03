@@ -1,0 +1,29 @@
+.HomePage {
+    background: url('../images/me.jpg') center center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+    height: 100vh;
+    width: 100%;
+    display: table;
+
+    &-inner {
+        display: table-cell;
+        text-align: center;
+        vertical-align: middle;
+        h1{
+            font-size: 4.5em;
+            font-weight: 700;
+        }
+
+        h3 {
+            margin-bottom: 2em;
+        }
+    }
+
+    &-actions {
+        width: 50%;
+        margin: 0 auto;
+    }
+ 
+}

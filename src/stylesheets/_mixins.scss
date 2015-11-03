@@ -1,0 +1,41 @@
+/**
+ * Style a input placeholder
+ */
+@mixin placeholder {
+  ::-webkit-input-placeholder {@content}
+  :-moz-placeholder           {@content}
+  ::-moz-placeholder          {@content}
+  :-ms-input-placeholder      {@content}
+}
+
+
+// Media Queries
+$small:              "max-width: #{$screen-xs-max}";
+$medium:             "min-width: #{$screen-sm-min}";
+$desktop:            "min-width: #{$screen-md-min}";
+$large-desktop:      "min-width: #{$screen-lg-min}";
+
+/**
+ * Responsive helper
+ */
+@mixin respond-to($query) {
+    @media only screen and (#{$query})  {
+        @content;
+    }
+}
+
+%page {
+    width: 100vw;
+    height: 100vh;
+}
+
+%vc-container{
+    display: table;
+    vertical-align: middle;
+}
+
+%vc-inner{
+    display: table-cell
+}
+
+
