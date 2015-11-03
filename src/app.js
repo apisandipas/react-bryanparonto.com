@@ -10,7 +10,7 @@ document.body.appendChild(app);
 
 FastClick.attach(document.body);
 
-Router.run(routes, HistoryLocation, function (Handler) {
+Router.run(routes, /*HistoryLocation,*/ function (Handler) {
     React.render(<Handler/>, app);
 });
 
